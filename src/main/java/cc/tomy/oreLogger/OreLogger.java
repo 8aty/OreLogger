@@ -218,6 +218,7 @@ public class OreLogger extends JavaPlugin implements Listener, TabCompleter {
                             int y = Integer.parseInt(args[2]);
                             int z = Integer.parseInt(args[3]);
                             String worldName = args[4];
+                            String dimensionName = ((OreLogger) Bukkit.getPluginManager().getPlugin("OreLogger")).getDimensionName(worldName);
 
                             // Get the target world
                             World targetWorld = Bukkit.getWorld(worldName);
@@ -231,7 +232,7 @@ public class OreLogger extends JavaPlugin implements Listener, TabCompleter {
                             Location teleportLocation = new Location(targetWorld, x, y, z);
                             teleportingPlayer.teleport(teleportLocation);
 
-                            sender.sendMessage("§aTeleported to " + x + ", " + y + ", " + z + " in world " + worldName);
+                            sender.sendMessage("§aTeleported to " + x + ", " + y + ", " + z + " in " + dimensionName);
                         } catch (NumberFormatException e) {
                             sender.sendMessage("§cInvalid coordinates. Use integers for x, y, and z.");
                         }
