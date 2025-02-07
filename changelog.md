@@ -9,6 +9,9 @@ All notable changes to **OreLogger** are documented in this file.
 ### Added
 - Added `orelogger.ignores` permission - any ores mined by players with this permission will not be logged, allowing staff to bypass ore logging functionality.
 
+### Fixed
+- Message on teleport not containing anymore the old world name 
+
 ---
 
 ## [1.2.1] - 2025-02-06
