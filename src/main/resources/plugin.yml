@@ -1,0 +1,7 @@
+name: oreLogger
+version: '1.2.1'
+main: cc.tomy.oreLogger.OreLogger
+api-version: '1.21'
+authors: [8aty]
+description: Plugin designed to track ore mining activity on server
+website: https://tomy.cc/
