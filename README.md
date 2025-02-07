@@ -32,6 +32,7 @@ See the full changelog [here](changelog.md).
 ## Requirements
 
 - Java 21 or higher
+- Discord Webhook
 - Minecraft Server 1.21.x
 - Permission plugin ([LuckyPerms](https://luckperms.net/) recommended)
 
