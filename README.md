@@ -107,12 +107,6 @@ Clicking the message will teleport the admin directly to the specified coordinat
 
 ---
 
-## Screenshots
-
-### Discord Integration
-![Discord Integration](https://via.placeholder.com/800x400?text=Discord+Integration)
-
----
 
 ## Support
 
