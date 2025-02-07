@@ -18,6 +18,12 @@ OreLogger is a lightweight Minecraft plugin designed to track ore mining activit
 
 ---
 
+## Changelog
+
+See the full changelog [here](https://github.com/8aty/OreLogger/changelog.md).
+
+---
+
 ## Installation
 
 1. **Download the Plugin**:
