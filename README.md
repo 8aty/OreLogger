@@ -29,6 +29,14 @@ See the full changelog [here](changelog.md).
 
 ---
 
+## Requirements
+
+- Java 21 or higher
+- Minecraft Server 1.21.x
+- Permission plugin ([LuckyPerms](https://luckperms.net/) recommended)
+
+---
+
 ## Installation
 
 1. **Download the Plugin**:
@@ -90,11 +98,12 @@ session-delay: 15 #Default is 15 seconds
 
 ## Permissions
 
-| Permission           | Description                                   | Default Value |
-|-----------------------|-----------------------------------------------|---------------|
-| `orelogger.reload`    | Allows reloading the configuration.          | op            |
-| `orelogger.alerts`    | Allows receiving admin alerts in-game.       | op            |
-| `orelogger.tp`        | Allows teleporting to ore mining locations.  | op            |
+| Permission           | Description                                                       | Default Value |
+|-----------------------|-------------------------------------------------------------------|---------------|
+| `orelogger.reload`    | Allows reloading the configuration.                               | op            |
+| `orelogger.alerts`    | Allows receiving admin alerts in-game.                            | op            |
+| `orelogger.tp`        | Allows teleporting to ore mining locations.                       | op            |
+| `orelogger.ignores`   | Prevents logging of ores mined by players with this permission.   | false         |
 
 ---
 

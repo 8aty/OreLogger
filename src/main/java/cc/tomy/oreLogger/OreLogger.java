@@ -115,10 +115,16 @@ public class OreLogger extends JavaPlugin implements Listener, TabCompleter {
     @EventHandler
     public void onBlockBreak(BlockBreakEvent event) {
         Player player = event.getPlayer();
+
+        // Check if the player has the ignore permission
+        if (player.hasPermission("orelogger.ignores")) {
+            return; // Do not log this player's mining activity
+        }
+
         Block block = event.getBlock();
+        Material material = block.getType();
 
         // Check if the block is an ore
-        Material material = block.getType();
         if (isOre(material)) {
             UUID playerId = player.getUniqueId();
 
