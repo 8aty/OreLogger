@@ -1,5 +1,5 @@
 name: oreLogger
-version: '1.2.2'
+version: '1.2.1'
 main: cc.tomy.oreLogger.OreLogger
 api-version: '1.21'
 authors: [8aty]
@@ -22,6 +22,3 @@ permissions:
   orelogger.tp:
     description: Allows teleporting to ore mining locations.
     default: op
-  orelogger.ignores:
-    description: Excludes the player from being logged by OreLogger.
-    default: false
