@@ -1,7 +1,7 @@
 # OreLogger
 
 [![License](https://img.shields.io/badge/License-AGPL_3-4B0082?style=flat&logo=gnu&logoColor=white)](LICENSE)
-[![Version](https://img.shields.io/badge/Release-v1.2.1-9400D3?style=flat)](https://github.com/8aty/OreLogger/releases)
+[![Version](https://img.shields.io/badge/Release-v1.2.2-9400D3?style=flat)](https://github.com/8aty/OreLogger/releases)
 [![JDK](https://img.shields.io/badge/JDK-21-0000FF?style=flat&logo=openjdk&logoColor=white)](https://github.com/8aty/OreLogger/releases)
 [![Maven](https://img.shields.io/badge/Built_with-Maven-00BFFF?style=flat&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 [![MC Support](https://img.shields.io/badge/Supports-1.21.x-87CEEB?style=flat)](https://github.com/8aty/OreLogger)
