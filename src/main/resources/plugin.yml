@@ -5,3 +5,20 @@ api-version: '1.21'
 authors: [8aty]
 description: Plugin designed to track ore mining activity on server
 website: https://tomy.cc/
+
+commands:
+  orelogger:
+    description: Main command for OreLogger.
+    usage: /orelogger <reload>
+    permission: orelogger.reload
+
+permissions:
+  orelogger.reload:
+    description: Allows reloading the configuration.
+    default: op
+  orelogger.alerts:
+    description: Allows receiving ore mining alerts in chat.
+    default: op
+  orelogger.tp:
+    description: Allows teleporting to ore mining locations.
+    default: op

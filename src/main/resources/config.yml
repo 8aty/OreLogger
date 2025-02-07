@@ -1,0 +1,24 @@
+# Discord webhook URL for sending alerts
+webhook-url: "https://discord.com/api/webhooks/..."
+
+# List of ores to be tracked by the OreLogger
+tracked-ores:
+  - IRON_ORE
+  - DEEPSLATE_IRON_ORE
+  - GOLD_ORE
+  - DEEPSLATE_GOLD_ORE
+  - DIAMOND_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  - EMERALD_ORE
+  - DEEPSLATE_EMERALD_ORE
+  - LAPIS_ORE
+  - DEEPSLATE_LAPIS_ORE
+  - REDSTONE_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - NETHER_GOLD_ORE
+  - ANCIENT_DEBRIS
+
+# Delay in seconds before a mining session is processed
+# Note: Setting this value too low may cause performance issues due to frequent processing.
+# It is recommended to use a reasonable delay to ensure optimal server performance.
+session-delay: 15 #Defualt is 15 seconds
