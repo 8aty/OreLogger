@@ -4,6 +4,13 @@ All notable changes to **OreLogger** are documented in this file.
 
 ---
 
+## [1.2.2] - 2025-02-07
+
+### Added
+- Added `orelogger.ignores` permission - any ores mined by players with this permission will not be logged, allowing staff to bypass ore logging functionality.
+
+---
+
 ## [1.2.1] - 2025-02-06
 
 ### Added
