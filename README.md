@@ -101,7 +101,7 @@ When a player mines ores, the following embed will be sent to Discord:
 
 Admins will see the following message in-game:
 
-![In-Game Alert](https://i.imgur.com/YLT1Tdy.png)
+![In-Game Alert](https://i.imgur.com/rXei8nX.gif)
 
 Clicking the message will teleport the admin directly to the specified coordinates in the correct world.
 
