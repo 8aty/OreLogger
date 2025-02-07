@@ -21,7 +21,7 @@ OreLogger is a lightweight Minecraft plugin designed to track ore mining activit
 ## Installation
 
 1. **Download the Plugin**:
-   - Download the latest JAR file from the [Releases](https://github.com/your-repo/OreLogger/releases) section.
+   - Download the latest JAR file from the [Releases](https://github.com/8aty/OreLogger/releases) section.
 
 2. **Install the Plugin**:
    - Place the JAR file in your server's `plugins/` folder.
