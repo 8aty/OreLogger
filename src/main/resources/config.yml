@@ -21,4 +21,4 @@ tracked-ores:
 # Delay in seconds before a mining session is processed
 # Note: Setting this value too low may cause performance issues due to frequent processing.
 # It is recommended to use a reasonable delay to ensure optimal server performance.
-session-delay: 15 #Defualt is 15 seconds
+session-delay: 15 #Default is 15 seconds
