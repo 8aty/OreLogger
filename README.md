@@ -6,7 +6,7 @@
 [![Maven](https://img.shields.io/badge/Built_with-Maven-00BFFF?style=flat&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 [![MC Support](https://img.shields.io/badge/Supports-1.21.x-87CEEB?style=flat)](https://github.com/8aty/OreLogger)
 
-![STILLINDEV](https://i.imgur.com/kInbBoZ.png)
+<div style="text-align:center"><img alt="warning" src="https://i.imgur.com/kInbBoZ.png" /></div>
 
 OreLogger is a lightweight Minecraft plugin that meticulously tracks ore mining on your server. It logs every ore mined by players and sends real-time alerts to both Discord and in-game chat for admins. With customizable settings, OreLogger helps prevent cheating like x-raying. It also supports cross-world teleportation, making it ideal for monitoring resource gathering and ensuring fair play across your server.
 
